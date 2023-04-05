@@ -1,0 +1,22 @@
+{
+  "name": "any-sync",
+  "version": "1.0.0",
+  "description": "Demonstrate event driven architecture and integration in Azure cloud",
+  "main": "./out/index.js",
+  "scripts": {
+    "compile": "node .scripts/run-scripts.js compile",
+    "release": "node .scripts/run-scripts.js release",
+    "clean": "node .scripts/run-scripts.js clean",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjchanna/azure-event-sync.git"
+  },
+  "author": "hjchanna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjchanna/azure-event-sync/issues"
+  },
+  "homepage": "https://github.com/hjchanna/azure-event-sync#readme"
+}
